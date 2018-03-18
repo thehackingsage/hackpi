@@ -1,11 +1,4 @@
-echo "
-	  		  ___              _                        ___ _ 
-			 | _ \__ _ ____ __| |__  ___ _ _ _ _ _  _  | _ (_)
-			 |   / _` (_-< '_ \ '_ \/ -_) '_| '_| || | |  _/ |
-			 |_|_\__,_/__/ .__/_.__/\___|_| |_|  \_, | |_| |_|
-		 				 |_|                     |__/         
-			  Update, Autologin and Tools for RPi3 by Mr. SAGE
-";
+echo "*Raspberry Pi Update, Autologin and Tools for Kali Linux by Mr. SAGE*"
 echo "**************************Performing Update***************************"
 apt-get update
 echo "************************Installing xfce4 GUI**************************"
