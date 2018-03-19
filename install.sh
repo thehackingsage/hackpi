@@ -1,4 +1,32 @@
-echo "*Raspberry Pi Update, Autologin and Tools for Kali Linux by Mr. SAGE*"
+#!/bin/bash
+
+BLACK='\e[30m'
+RED='\e[31m'
+GREEN='\e[32m'
+YELLOW='\e[33m'
+BLUE='\e[34m'
+PURPLE='\e[35m'
+CYAN='\e[36m'
+WHITE='\e[37m'
+NC='\e[0m'
+
+echo -e "${CYAN} __________.__   _____  ____  __.      .__  .__  "
+echo "           \______   \__| /  |  ||    |/ _|____  |  | |__| "
+echo "            |     ___/  |/   |  ||      < \__  \ |  | |  | "
+echo "            |    |   |  /    ^   /    |  \ / __ \|  |_|  | "
+echo "            |____|   |__\____   ||____|__ (____  /____/__| "
+echo "                             |__|        \/    \/          "
+echo -e "${NC}"
+echo -e "${RED} === Pi 4 Kali version 1.0 === ${NC}"
+echo -e "${RED} Raspberry Pi Update, Autologin,  AutoVNC and Tools ${NC}"
+echo -e "${YELLOW} for Kali Linux by Mr. SAGE ${NC}"
+echo ""
+echo "----------------------------------------------------------------"
+echo -e "${GREEN} Raspberry Pi Update, Autologin and Tools for Kali Linux by Mr. SAGE "
+echo ""
+echo -e "${CYAN}[>] Press ENTER to continue, CTRL+C to abort.${NC}"
+read INPUT
+echo ""
 echo "**************************Performing Update***************************"
 apt-get update
 echo "************************Installing xfce4 GUI**************************"
