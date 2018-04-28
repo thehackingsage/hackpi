@@ -17,7 +17,7 @@ echo "  |    |   |  /    ^   /    |  \ / __ \|  |_|  | "
 echo "  |____|   |__\____   ||____|__ (____  /____/__| "
 echo "                   |__|        \/    \/          "
 echo -e "${NC}"
-echo -e "${GREEN} * Pi 4 Kali version 1.0 by Mr. SAGE * ${NC}"
+echo -e "${GREEN} * Pi 4 Kali version 1.1 by Mr. SAGE * ${NC}"
 echo ""
 echo -e "${RED} RaspberryPi Update, Upgrade, Autologin, AutoVNC and Tools ${NC}"
 echo ""
@@ -32,22 +32,14 @@ echo "************************Installing xfce4 GUI**************************"
 apt-get install kali-defaults kali-root-login desktop-base xfce4 xfce4-places-plugin xfce4-goodies
 apt-get install lightdm
 dpkg-reconfigure lightdm
-echo "****************************Installing Vino****************************"
-apt-get -y install vino
+echo "****************************Installing x11vnc****************************"
+apt-get install x11vnc
 gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
-echo "VNC Server Setup... Done !!!"
+echo "x11vnc Installed !!!"
 mkdir /root/.config/autostart
 echo "**********************Making Autorun VNC Script************************"
-echo "[Desktop Entry]
-Encoding=UTF-8
-Type=Application
-Name=VINO
-Comment=
-Exec=/usr/lib/vino/vino-server
-StartupNotify=false
-Terminal=false
-Hidden=false" > /root/.config/autostart/vino.desktop
+cp x11vnc.desktop /root/.config/autostart/
 echo "VNC Autorun on Startup... Done !!!"
 echo "**************************Enabling AutoLogin****************************"
 mv /etc/lightdm/lightdm.conf  /etc/lightdm/lightdm.conf.bak
