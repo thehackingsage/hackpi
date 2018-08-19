@@ -1,5 +1,7 @@
 # Setup Kali Linux on Raspberry Pi 3 without Display : Portable Hacking Machine
 
+[Article With Image](https://thehacktronian.blogspot.com/2018/08/SetupKaliLinuxOnRaspberryPi3.html)
+
 The Raspberry Pi is a low-cost, credit-card-sized ARM computer. Despite being a good bit less powerful than a laptop or desktop PC, its affordability makes it an excellent option for a tiny Linux system and it can do far more than act as a media hub.
 
 The Raspberry Pi provides a SD card slot for mass storage and will attempt to boot off that device when the board is powered on.
