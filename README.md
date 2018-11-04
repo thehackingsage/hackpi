@@ -1,4 +1,4 @@
-# Setup Kali Linux on Raspberry Pi 3 without Display : Portable Hacking Machine
+# Plug and Play Portable Hacking Machine with RPi3
 
 [Article With Image](https://thehacktronian.blogspot.com/2018/08/SetupKaliLinuxOnRaspberryPi3.html)
 
@@ -10,21 +10,21 @@ So Let's Get Started..
 
 ## Things You Need :
 
-Raspberry Pi 3 : [Amazon](http://amzn.in/igaal2Q)
+* Raspberry Pi 3 : [Amazon](http://amzn.in/igaal2Q)
 
-SD Card (16 GB) : [Amazon](http://amzn.in/5syvCew)
+* SD Card (16 GB) : [Amazon](http://amzn.in/5syvCew)
 
-Card Reader/SD Card Adoptor : [Amazon](http://amzn.in/akD4COz)
+* Card Reader/SD Card Adoptor : [Amazon](http://amzn.in/akD4COz)
 
-PowerBank/Charger : [Amazon](http://amzn.in/fE4JBeA)
+* PowerBank/Charger : [Amazon](http://amzn.in/fE4JBeA)
 
-PC/Laptop : [Amazon](https://www.amazon.in/b?node=1375424031)
+* PC/Laptop : [Amazon](https://www.amazon.in/b?node=1375424031)
 
-Linux Operating System with Root Access : [Kali Linux](https://www.kali.org/downloads/) or [ParrotSecOS](https://www.parrotsec.org/download-security.php)
+* Linux Operating System : [Kali Linux](https://www.kali.org/downloads/) or [ParrotSecOS](https://www.parrotsec.org/download-security.php)
 
-Brain and Patience.
+* Brain and Patience... 
 
-## Installing Kali Linux on SD-Card :
+## Installing Kali/Parrot on SD-Card (i'm using Kali Linux) :
 
 1. Download the [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) Raspberry Pi image from the Offensive Security downloads area.
 
