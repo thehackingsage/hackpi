@@ -44,7 +44,7 @@ So Let's Get Started..
 
 2. Open Terminal and move to Desktop by typing : ```cd /root/Desktop```
 
-3. Now Download Pi4Kali by typing : ```git clone https://github.com/thehackingsage/pi4kali.git``` 
+3. Now Download HackPi by typing : ```git clone https://github.com/thehackingsage/hackpi.git``` 
 
 4. Connect SD-Card with your PC/Laptop using card reader, don't mount the drive.
 
@@ -64,13 +64,13 @@ So Let's Get Started..
 
 12. Create a simple empty file named ```ssh``` on Boot Partition of SD Card.
 
-13. After that Goto Pi4kali > Config Files > etc > wpa_supplicant and open wpa_supplicant.conf in a text editor
+13. After that Goto HackPi > Config Files > etc > wpa_supplicant and open wpa_supplicant.conf in a text editor
 
 14. Type Your ```WiFi SSID``` in the place of ```Type_SSID``` and ```WiFi Password``` in the place of ```Type_Password```. and then save the file (ctrl+s).
 
 15. Now go back to Config File folder and Copy the etc folder and Paste it into Root Partition of SD Card.. it will ask you for Marge and Replace Files or Folder, click on Yes..
 
-16. Copy and Paste Pi4Kali folder in Root Partition of SD Card (/root/Downloads/)
+16. Copy and Paste HackPi folder in Root Partition of SD Card (/root/Downloads/)
 
 17. Insert the SD card into the Raspberry Pi and power it on. it'll automatically login as root and connect to your wifi.
 
@@ -82,7 +82,7 @@ So Let's Get Started..
 
 21. It'll ask you for log as : ```root``` and Password : ```toor```
 
-22. Now goto pi4kali folder by typing : ```cd Downloads/pi4kali/```
+22. Now goto hackpi folder by typing : ```cd Downloads/hackpi/```
 
 23. Give execution permission to install.sh file by typing : ```chmod +x install.sh```
 
