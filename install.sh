@@ -60,5 +60,5 @@ cp lightdm.conf /etc/lightdm/lightdm.conf
 cp lightdm-autologin /etc/pam.d/lightdm-autologin
 echo -e "${TRANS}"
 echo -e "${GREEN}All Done...!!! Thanks For Using This Tool...!!!${TRANS}"
-echo -e "${GREEN}Visit : https://linktr.ee/thehackingsage for more.. ${TRANS}"
+echo -e "${GREEN}Visit : https:/thehackingsage.github.io for more.. ${TRANS}"
 echo "                                                               "
