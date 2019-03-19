@@ -20,13 +20,13 @@ So Let's Get Started..
 
 * PC/Laptop : [Amazon](https://www.amazon.in/b?node=1375424031)
 
-* Linux Operating System : [Kali Linux](https://www.kali.org/downloads/) or [ParrotSecOS](https://www.parrotsec.org/download-security.php)
+* Linux Operating System : [Kali Linux](https://www.kali.org/downloads/) or [ParrotSecOS](https://www.parrotsec.org/download-other.php)
 
 * Brain and Patience... 
 
 ## Installing Kali/Parrot on SD-Card (i'm using Kali Linux) :
 
-1. Download the [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) or [ParrotSecOS](https://cdimage.parrotsec.org/parrot/iso/arm/rpi)Raspberry Pi image.
+1. Download the [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) or [ParrotSecOS](https://cdimage.parrotsec.org/parrot/iso/arm/rpi) Raspberry Pi image.
 
 2. Download [Etcher](https://www.balena.io/etcher/) for You Operating System
 
