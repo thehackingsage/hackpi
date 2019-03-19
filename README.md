@@ -26,9 +26,9 @@ So Let's Get Started..
 
 ## Installing Kali/Parrot on SD-Card (i'm using Kali Linux) :
 
-1. Download the [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) Raspberry Pi image from the Offensive Security downloads area.
+1. Download the [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) or [ParrotSecOS](https://cdimage.parrotsec.org/parrot/iso/arm/rpi)Raspberry Pi image.
 
-2. Download [Etcher](https://etcher.io/) for You Operating System
+2. Download [Etcher](https://www.balena.io/etcher/) for You Operating System
 
 3. Get a fast SD card with at least 16 GB capacity and Connect it with your PC/Laptop using Card Reader.
 
@@ -90,9 +90,9 @@ So Let's Get Started..
 
 25. Press Enter and Wait for Finish the Installation..
 
-#### It'll Update Your Kali Linux, Start Up The XFCE Desktop Environment, Configure Auto Root Login and Configure VNC Autorun on Startup..
+#### It'll Update Your Kali Linux/ParrotSecOS, Start Up The XFCE Desktop Environment, Configure Auto Root Login and Configure VNC Autorun on Startup..
 
-#### In The Middle of Installation It'll Ask You for VNC Password, you can type whatever password you  want, then it'll ask for Enter A View-Only Password?(y/n) : Type ```n``` and Hit Enter..
+#### In The Middle of Installation It'll Ask You for VNC Password, you can type whatever password you want, then it'll ask for Enter A View-Only Password?(y/n) : Type ```n``` and Hit Enter..
 
 26. Once the Installation process complete. restart the raspberry pi by typing : ```reboot```
 
@@ -106,7 +106,7 @@ All Done.. !!!
 
 3. Create a New Connection (CTRL+N)
 
-4. Type ```192.168.1.155:5900``` in VNC Server and ```KaliPi``` in Name and click on OK.
+4. Type ```192.168.1.155:5900``` in VNC Server and ```HackPi``` in Name and click on OK.
 
 5. Now Double Click on Kali Pi, It'll Ask You For Password So Type Your VNC Password, Check Remember Password and Click OK.
 
